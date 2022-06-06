@@ -1,0 +1,158 @@
+//메인페이지
+.mainbanner {
+  height: 550px;
+  background-image: url('../img/erom_main_banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.inner {
+  &:nth-child(1) {
+    margin-top: 50px;
+  }
+  .box {
+    flex-wrap: wrap;
+    .items {
+      position: relative;
+      .history_img_txt {
+        position: absolute;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        strong {
+          font-weight: 700;
+          font-size: $fontSizeNormal;
+          font-style: italic;
+        }
+        h4 {
+          font-size: $titleFontSizeBig;
+          font-weight: 300;
+          padding-top: 25px;
+          width: 70%;
+          letter-spacing: -0.75px;
+        }
+      }
+      .title {
+        font-size: $titleFontSizeBig;
+        font-weight: 400;
+        padding: 0;
+      }
+      p {
+        font-size: $fontSizeNormal;
+        font-weight: 300;
+        margin-top: 30px;
+      }
+      .text_box {
+        background-color: $textboxBg;
+        padding: 22px 66px 16px;
+        margin-bottom: 30px;
+        font-size: $fontSizeSmall;
+        font-weight: 400;
+        line-height: 2em;
+        dt {
+          color: $fontColorHover;
+          font-weight: 600;
+        }
+      }
+      .text_box02 {
+        font-size: $fontSizeMid;
+        font-weight: 400;
+        color: $fontColorHover;
+        border: 1px solid $borderColor2;
+        margin-bottom: 30px;
+        flex: 50%;
+        .box-wrap {
+          display: flex;
+          justify-content: space-between;
+          dl {
+            box-sizing: border-box;
+            padding: 0 3%;
+            padding-top: 40px;
+            dd {
+              font-size: $fontSizeTiny;
+              color: $fontColorBasic;
+              line-height: 1.8em;
+            }
+          }
+          img {
+            width: 100px;
+            padding: 3% 3%;
+          }
+        }
+      }
+      .imgtxt {
+        position: absolute;
+        padding: 3%;
+        background-color: $textboxBg;
+        top: 10%;
+        width: 35%;
+        h4 {
+          font-size: $titleFontSizeBig;
+          font-weight: 400;
+          color: $fontColorHover;
+          margin-bottom: 10px;
+        }
+        .description {
+          font-size: $fontSizeSmall;
+          font-weight: 300;
+          letter-spacing: -0.1px;
+          line-height: 1.4em;
+          padding-left: 7px;
+
+        }
+        p {
+          font-weight: 600;
+          letter-spacing: -0.1px;
+          margin-bottom: 10px;
+        }
+        span {
+          position: relative;
+          display: block;
+          font-size: $fontSizeSmall;
+          padding-left: 13px;
+          &:before {
+            position: absolute;
+            content: '';
+            width: 1px;
+            height: 100%;
+            background: #cecece;
+            left: 0;
+            top: 0;
+          }
+        }
+      }
+    }
+    .titletxt {
+      padding: 0;
+    }
+    .history {
+      height: 400px;
+      background-size: cover;
+      img {
+      }
+    }
+    &.items_2 {
+      .items {
+        h3 {
+          font-weight: bolder;
+          font-style: italic;
+        }
+        p {
+          font-weight: 300;
+          font-size: $fontSizeBig;
+        }
+        a {
+          font-size: $fontSizeSmall;
+          font-weight: 600;
+          margin-top: 50px;
+        }
+        p:nth-child(1) {
+          font-size: $fontSizeNormal;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}

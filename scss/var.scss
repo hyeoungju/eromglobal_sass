@@ -1,0 +1,38 @@
+// 변수 처리
+
+//site width
+$siteWidth: 1320px; //그리드 작업할때쓰는 너비 12로나눠지는 수라서
+
+//text size
+$fontSizeTiny: 12px;
+$fontSizeSmall: 14px;
+$fontSizeNormal: 16px;
+$fontSizeMid: 18px;
+$fontSizeBig: 22px;
+
+// title text size
+$titleFontSizeSmall: 21px;
+$titleFontSizeNormal: 24px;
+$titleFontSizeMid: 26px;
+$titleFontSizeBig: 32px;
+$titleFontSizeVeryBig: 56px;
+
+//색상정의
+// background color
+$layoutBg: #fff;
+$tableBg: #b8944d;
+$textboxBg: #f4f4f4;
+
+//font color
+$fontColorBasic: #414141;
+$fontColorPrimary: #484848;
+$fontColorHover: #00ac4f;
+
+//border color
+$borderColorPrimary: #414141;
+$borderColor1: #484848;
+$borderColor2: #d9d9d9;
+
+//button color
+$gbtnColor: #00ac4f;
+$gbtnColorHover: #e3a936;
